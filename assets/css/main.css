@@ -3046,8 +3046,8 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#page-wrapper {
-				padding-left: 2rem;
-				padding-right: 2rem;
+				padding-left: 0rem;
+				padding-right: 0rem;
 			}
 
 		}
