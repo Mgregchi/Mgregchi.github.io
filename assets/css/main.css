@@ -3040,7 +3040,7 @@ input, select, textarea {
 		-ms-flex-shrink: 1;
 		flex-shrink: 1;
 		height: 100%;
-		padding: 5rem;
+		padding: 0rem;
 	}
 
 		@media screen and (orientation: portrait) {
