@@ -1,0 +1,50 @@
+{
+  "short_name": "Mgregchi",
+  "name": "Michael Amadi C",
+  "icons": [
+    {
+      "src": "./img/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./img/logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "Hire a software developer",
+      "short_name": "Hire me",
+      "description": "Hire a software developer",
+      "url": "/hire-me?source=pwa",
+      "icons": [{ "src": "/img/developer.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Live test",
+      "short_name": "Live test",
+      "description": "View, get early access and test softwares before it is launched",
+      "url": "/early-access?source=pwa",
+      "icons": [{ "src": "./img/app-launch.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Mgregchi's personal website. An exprienced software developer. You can find Tutorial and blog post of computer and technology related",
+  "screenshots": [
+    {
+      "src": "/img/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/img/screenshot2.jpg",
+      "type": "image/jpg",
+      "sizes": "540x720"
+    }
+  ]
+}
