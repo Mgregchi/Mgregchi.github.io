@@ -828,7 +828,7 @@
     <!-- Copyright -->
     <div class="text-center p-4" >
       <!--email address encoder-->
-      © 2019 — <span data-name="year"></span> Copyright:
+      © 2019 — <span id="year"></span> Copyright:
       <a class="text-light" href="https://mgregchi.tk/">Mgregchi</a>
     </div>
     <span class="p-2"></span>
@@ -843,7 +843,7 @@
     <script>
      const d = new Date();
      
-     document.querySelectorAll("[data—name='year']").innerText = d.getFullYear();
+     document.getElementById("year").innerText = d.getFullYear();
       // DATA FROM JSON
       //$.getJSON("storage/tags.json")
       /*
