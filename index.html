@@ -53,11 +53,11 @@
   <header>
     <!-- Intro settings -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+      /*@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');*/
       /* Default height for small devices */
       #intro {
         background-image: url("./img/logo.jpg");
-        font-family: 'Roboto','Indie Flower', cursive;
+        /*font-family: 'Roboto','Indie Flower', cursive;*/
         height: 100vh;
 
       }
@@ -70,7 +70,7 @@
 
       body html {
         background-color: rgba(0, 0, 0, 0.2);
-        font-family: 'Indie Flower', cursive;
+        /*font-family: 'Indie Flower', cursive;*/
       }/*
       .dark {
          color: white;
@@ -828,7 +828,7 @@
     <!-- Copyright -->
     <div class="text-center p-4" >
       <!--email address encoder-->
-      © 2021 Copyright:
+      © 2019 — <span data-name="year"></span> Copyright:
       <a class="text-light" href="https://mgregchi.tk/">Mgregchi</a>
     </div>
     <span class="p-2"></span>
@@ -841,6 +841,9 @@
     <script type="text/javascript" src="js/processor.js"></script>
     <!--script src="js/jquery.min.js"></script-->
     <script>
+     const d = new Date();
+     
+     document.querySelectorAll("[data—name='year']").innerText = d.getFullYear();
       // DATA FROM JSON
       //$.getJSON("storage/tags.json")
       /*
