@@ -1,934 +1,330 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="author" content="Michael Amadi, Mgreg, Mgregchi"/>
-    <meta name="owner" content="Michael Amadi, Mgreg, Mgregchi"/>
-    <meta name="description" content="Michael .C. Amadi (Mgregchi) A Technology enthusiast, An Independent Software Developer, I.T instructor, Electrician, AI Computer Vision Aspirant, currently at Kano state, Nig. Personal webiste, portfolio and blog of Michael Amadi / Mgregchi.
-    Builds, Design, ReDesign high-end Websites, Desktop/Mobile Softwares. Ready to work/collaborate for short/long time projects. Knowledge in Web Design/Development, Mobile/Desktop Development. Programming languages/frameworks: JavaScript, ReactJs, ReactNative, ElectronJs, JQuery,
-    Python, Django, Flask, Opencv, Git, Bootstrap, MDBootstrap, HTML5/CSS"
-    />
-    <meta name="publisher" content="Michael Amadi, Mgreg, Mgregchi"/>
-    <meta name="creator" content="Michael Amadi, Mgreg, Mgregchi"/>
-    <meta name="referrer"/>
-    <meta name="keywords" content="Michael Amadi, Mgreg, Mgregchi, Software Coach, I.T instructor,
-      software, programmer, build my website, Mgregchi Personal portfolio website,
-      github users, Learn computer programming, Hire a computer programmer,Hire a software developer"
-    />
-    <meta name="email" content="info@mgregchi.tk, portfolio@mgregchi.tk"/>
-    <title>Michael Amadi (Mgregchi)</title>
-    <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
-    <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="black">    
-    <link rel="icon" href="./img/icon.bmp" type="image/x-icon" />
-    <link rel="manifest" href="./storage/manifest.json">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
-    <!-- Google Fonts Roboto -->
-    <!--link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" /-->
-    <!-- MDB DARK-->
-    <!--link rel="stylesheet" href="css/mdb.dark.min.css" /-->
-    <!--MDB-->
-    <link rel="stylesheet" href="css/mdb.min.css" id="style"/>
-    <!-- Custom styles -->
-    <!--link rel="stylesheet" href="css/style.css" /-->
-    <!--tags.json-->
-    <script src="js/sw.js"></script>
-		<!-- Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-NRKJTPK');</script>
-      <!-- End Google Tag Manager -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="twitter:card"  content="summary_large_image" />
+      <meta name="twitter:site"  content="@mgregchi" />
+      <meta  property="og:title" content="Michael Amadi" />
+      <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURUxpcU3H2DoAAAABdFJOUwBA5thmAAAADElEQVQI12NgIA0AAAAwAAHHqoWOAAAAAElFTkSuQmCC"  />
+      <!-- <link rel="stylesheet" href="./main.css" type="text/css" /> -->
+      <link rel="stylesheet" href="./css/layout.css" type="text/css" />
+    <link rel="canonical" href="https://username.com/home-1" />
+      <title>Michael Amadi</title>
 </head>
-<body class="dark">
-		<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRKJTPK"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->  
-      <!--Main Navigation-->
-  <header>
-    <!-- Intro settings -->
-    <style>
-      /*@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');*/
-      /* Default height for small devices */
-      #intro {
-        background-image: url("./img/logo.jpg");
-        /*font-family: 'Roboto','Indie Flower', cursive;*/
-        height: 100vh;
-
-      }
-      @media (max-width: 991px) {
-              #intro {
-              /* Margin to fix overlapping fixed navbar */
-              margin-top: 45px;
-      	}
-      }
-
-      body html {
-        background-color: rgba(0, 0, 0, 0.2);
-        /*font-family: 'Indie Flower', cursive;*/
-      }/*
-      .dark {
-         color: white;
-         background-color: black;
-      }*/
-      footer li > a {
-        color: white;
-      }
-    </style>
-    
-    <!-- Navbar -->
-    <nav class="navbar shadow-5-strong navbar-expand-lg bg-light fixed-top" id="nav">
-      <!--Grid row-->
-    
-      <div class="container-fluid">
-        <!--Replace with bulb for toggling between light and dark mode-->
-        <!--a class="nav-link text" role="button">
-          <i class="fa fa-adjust" id="adjust" aria-hidden="true">Adjust</i>
-        </a-->
-        <!--button class="btn nav-link " role="button" id="adjustBtn">
-          <i class="fa fa-moon text-light" id="adjust" aria-hidden="true">Adjust</i>
-        </button-->
-        <a class="nav-link" role="button">
-          <i class="fa fa-moon text-dark" id="adjust" aria-hidden="true"></i>
-        </a>
-        <!--div class="form-check form-switch">
-          <input
-            class="form-check-input"
-            type="checkbox"
-            id="flexSwitchCheckDefault"
-          />
-          <label class="form-check-label" for="flexSwitchCheckDefault"
-            ><small>Transparency</small></label
-          >
-        </div-->
-        <!-- Navbar brand -->
-        <a class="navbar-brand nav-link " target="_blank" href="#">
-          <strong class="primary ">MGREGCHI</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-          <i id="menu" class="fas fa-bars"></i>
-        </button>
-        <div class="text-light collapse navbar-collapse" id="navbarExample01">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                >Tutorial</a>
-            </li>
-            <!--li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li-->
-            <!-- Navbar dropdown -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-mdb-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Projects
-              </a>
-              <!-- Dropdown menu -->
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdown"
-              >
-                <li><a class="dropdown-item" href="#">Mobile</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Desktop</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Web</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Web API</a>
-                </li>                                
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"
-                    >Visual | Graphics designs</a
-                  >
-                </li>
-              </ul>
-            </li>            
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hire me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Profile</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" >Live test</a>
-            </li>                                  
-          </ul>
-
-          <ul class="navbar-nav d-flex flex-row">
-            <!-- Icons -->
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="#" target="_blank" name="youtube" rel="noopener">Youtube channel
-                <i class="fab fa-youtube"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link"
-              data-mdb-container="body"
-              data-mdb-toggle="popover"
-              data-mdb-placement="top"
-              data-mdb-content="Sorry, I'm not currently using that!"
-              data-mdb-original-title=""
-              title="" name="facebook link" rel="noopener">Facebook page
-                <i class=" fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://twitter.com/mgregchi02" target="_blank" rel="noopener">Twitter page
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="https://github.com/Mgregchi/" target="_blank" rel="noopener">Github page
-                <i class="fab fa-github"></i>
-              </a>
-            </li>
-          </ul>
-             
-        </div>
+  <body class="transition-enabled">    <section class="splash centered e2e-site-content">
+      <div class="outer-wrap">
+        <div class="centered-content-wrap js-site-wrap splash-modules">
+      <div class='page-background-video page-background-video-with-panel'>
       </div>
-    </nav>
-    <!-- Navbar -->
-    <!--HIRE ME BUTTON-->
-    <div class="fixed-bottom">
-      <div class="text-center">
-        <button class="btn btn-primary m-2" id="hire-me" type="button">HIRE ME</button>  
-        
-      </div>      
+      <div class="page-content js-page-content" data-context="pages" data-identity="id:p6407567a91af7b4c8bd2d2b11ee94fc8732282d37b101dedfa68a">
+        <div id="project-canvas" class="js-project-modules modules content">
+          <div id="project-modules">
+              
+              <div class="project-module module text project-module-text align- js-project-module e2e-site-project-module-text">
+  <div class="rich-text js-text-editable module-text"><div class="title"><span class="texteditor-inline-fontsize" style="font-size:100px;">Hi! I'm Michael</span></div></div>
+</div>
+
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <div class="project-module module text project-module-text align- js-project-module e2e-site-project-module-text">
+  <div class="rich-text js-text-editable module-text">
+    <div><span style="font-family:jccl; font-weight:400;">
+      <span style="font-size:18px;" class="texteditor-inline-fontsize">
+        An experienced professional <a href="https://google.com/q?=full-stack+software+developer" style="text-decoration: underline; color: inherit;">Full-stack software developer</a>
+      </span>
+    </span></div>
+  </div>
+</div>
+
+              
+              
+              
+              
+              <div class="js-project-module project-module module button project-module-button" data-id="m6407567a9fe65b076357131537539d6733069ff5e12c783f871ab"  style=" padding-top: px;
+padding-bottom: px;
+">
+    <div class="button-container" style="">
+      <a href="#" class="button-module preserve-whitespace--nowrap btn-open-modal enter-button">KNOW MORE</a>
+      
     </div>
-    
-    <!--HIRE ME BUTTON END-->
-    <!-- Background image -->
-    <div id="intro" class="bg-image shadow-2-strong">
-      <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
-        <div class="container d-flex align-items-center justify-content-center text-center h-100">
-          <div class="text-white">
-            <h1 class="mb-3">Sleek designs and Customized Softwares / Technology
-               services for your <span class="text-info">BUSINESS</span></h1>
-            <p class="lead">What can we do for you?</p>
-       <div class="d-grid gap-2 d-md-block">    
-          <a class="btn btn-primary btn-lg m-2" href="https://forms.gle/nT4aGHqkxij87v8GA" target="_blank"
-              title="Course enrollment form" role="button">I am here to learn (15% discounts)</a>
-           <a class="btn btn-primary btn-lg m-2" href="https://forms.gle/nT4aGHqkxij87v8GA" target="_blank"
-              title="Course enrollment form" role="button">I am here to hire</a>
-        </div>
+</div>
 
+<!-- Sliding Modal -->
+<!-- <div id="slideModal" class="slide-modal">
+  <div class="slide-modal-dialog">
+    <div class="slide-modal-content">
+      <span class="close" onclick="closeSlideModal()">&times;</span>
+      <h2>Responsive Sliding Modal</h2>
+      <p>This modal slides from the bottom to the center of the screen and is fully responsive.</p>
+    </div>
+  </div>
+</div> -->
 
-            <!--h2 style="font-size: 16px;" class="mb-4 lead text-muted">Become a software developer</h2>
-            <h2 class="mb-4">Learn how to Create beautiful Websites and develope Mobile and desktop applications</h2>
-
-            <a class="btn btn-primary btn-lg m-2" href="https://forms.gle/nT4aGHqkxij87v8GA" target="_blank"
-              title="Course enrollment form" role="button">Enroll here (15% discounts)</a>
-            <h2 class="mb-4">Have a project/work you want to be done for you? Website and app for personal or your business, school, events and others</h2>
-            <a class="btn btn-primary btn-lg m-2" href="https://forms.gle/B3xbP5dAVLwexXY39" target="_blank"
-              title="Contract proposal form" role="button">Click here</a-->
-
-          </div>
-        </div>
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close" onclick="closeModal()">&times;</span>
+    </div>
+      <!-- Projects Section -->
+      <section class="section">
+      <h2 class="heading">Projects 🔗</h2>
+      <div class="section-content">
+        <div class="section-intro">
+          <p>I've worked on tons of projects both personal and professionaly for clients and contribution while under employment. Here are some of them you can checkout 😎</p>
       </div>
-    </div>
-    <!-- Background image -->
-  </header>
-  <!--Main Navigation-->
-
-  <!--Main layout-->
-  <main class="mt-5">
-    <div class="container">
-      <!--Section: Content-->
-      <section>
-        <div class="row">
-          <div class="col-md-6 gx-5 mb-4">
-            <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
-              <img src="./img/logo.jpg" rel="logo" class="img-fluid" />
-              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+        <div class="project-grid-ruby">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <img src="https://via.placeholder.com/900x200" alt="Project 1">
+            <div class="project-title">Illustration Series 1</div>
+            <div class="project-teaser">
+              <p>This is a detailed illustration series focusing on fantasy landscapes...</p>
             </div>
+            <div class="project-full-content" id="project-content-1">
+              <p>The series incorporates mixed media techniques to create vibrant and imaginative scenes.</p>
+            </div>
+            <div class="project-expand" onclick="toggleProjectContent(this)"><span>Read more</span></div>
           </div>
 
-          <div class="col-md-6 gx-5 mb-4">
-            <h3><strong>Overview</strong></h3>
-            <p class="text-muted">
-              Sorry, this site is currently under maintenance.
-              You can still send Me <a href="#email">email</a>
-            </p>
-            <p><strong>Upcoming</strong></p>
-            <p class="text-muted">
-              Beginners' Guide to Computer Programming. Introductory course.
-            </p>
+          <!-- Project 2 -->
+          <div class="project-card">
+            <a href="https://mgregchi.github.io/clearlink/" style="text-decoration: none;" rel="_blank">
+            <img src="https://via.placeholder.com/900x200" alt="Project 2">
+          </a>
+            <div class="project-title">Brand Identity Project</div>
+            <div class="project-teaser">
+              <p>ClearLink - This project involved designing a complete product landing page</p>
+            </div>
+            <div class="project-full-content" id="project-content-2">
+              <p>I designed and styled the layout to meet the design requirements. Utilizing the intuantive power of Bootstrap to make the design come to life and present the product appealing to users.</p>
+            </div>
+            <div class="project-expand" onclick="toggleProjectContent(this)"><span>Read more</span></div>
+
           </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <img src="https://via.placeholder.com/900x200" alt="Chat Application">
+            <div class="project-title">Chat Application</div>
+            <div class="project-teaser">
+              <p>A real-time chat application built using Socket.io, Express, and MongoDB...</p>
+            </div>
+            <div class="project-full-content" id="project-content-3">
+              <p>It supports private messaging, group chats, and user presence detection in real-time.</p>
+            </div>
+            <div class="project-expand" onclick="toggleProjectContent(this)"><span>Read more</span></div>
+
         </div>
-      </section>
-      <!--Section: Content-->
 
-      <hr class="my-5" />
-      <!--Section: Content-->
-      <section class="text-center" hidden>
-        <h4 class="mb-5"><strong>Blog Posts and Tutorials</strong></h4>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-12 mb-4">
-            <div class="card">
-              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="#" class="img-fluid" />
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                </a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Read</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="#" class="img-fluid" />
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                </a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Read</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                <img src="#" class="img-fluid" />
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                </a>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the
-                  card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Read</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Section: Content-->
-
-      <hr class="my-5" />
-
-      <!--Section: Content-->
-      <section class="text-center" hidden>
-        <h1 class="mb-5 text-center"><strong>Newest Projects</strong></h1>
-        <div class="row">
-          <div class="col-lg-4 col-md-12 mb-4">
-            <div class="card bg-dark text-white shadow-1-strong">
-              <img
-                src="#"
-                class="card-img"
-                alt="..."
-              />
-              <div class="card-img-overlay hover-shadow">
-                <h2 class="card-title">Card title</h2>
-                <p class="card-text">
-                  This is a wider card with supporting text below as a
-                  natural lead-in to additional content. This content is a
-                  little bit longer.
-                </p>
-                <p class="card-text">Last updated 3 mins ago</p>
-                <button type="button" class="btn btn-primary">
-                  View
-                </button>                    
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="card bg-dark text-white shadow-1-strong">
-                <img
-                  src="#"
-                  class="card-img"
-                  alt="..."
-                />
-                <div class="card-img-overlay hover-shadow">
-                  <h2 class="card-title">Card title</h2>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
-                  <p class="card-text">Last updated 3 mins ago</p>
-                  <button type="button" class="btn btn-primary">
-                    View
-                  </button>                    
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="card bg-dark text-white shadow-1-strong">
-                <img
-                  src="#"
-                  class="card-img"
-                  alt="..."
-                />
-                <div class="card-img-overlay hover-shadow">
-                  <h3 class="card-title">Card title</h3>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
-                  <p class="card-text">Last updated 3 mins ago</p>
-                  <button type="button" class="btn btn-primary">
-                    View
-                  </button>                    
-                </div>
-              </div>
-            </div>
-          </div>
-  
-
-         
-          <!--USE FOR ABATOBI-->
-          <!--div class="card mb-3" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg"
-                  alt="..."
-                  class="img-fluid"
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in to additional content. This content is
-                    a little bit longer.
-                  </p>
-                  <p class="card-text">
-                    <small class="text-muted"
-                      >Last updated 3 mins ago</small
-                    >
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div-->          
         </div>        
-        <a 
-          class="btn btn-primary text-center"
-          data-mdb-toggle="collapse"
-          href="#collapseExample"
-          role="button"
-          aria-expanded="false"
-          aria-controls="collapseExample"
-        >
-          Subscribe to newsletter
-        </a>
-      
-      <!-- Collapsed content -->
-      <div class="collapse mt-3" id="collapseExample">
-
-        <!-- Grid container -->
-        <div class="container p-4">
-          <!--Grid row-->
-          <div class="row">
-            <!--Grid column-->
-            <div class="col-lg-6 col-md-12">
-              <div id="more"></div>
-            <div class="col-md-12">
-              <form method="POST" action="https://getform.io/f/72703077-ec49-4706-abd8-6615c4509cb1" class="was-validated">
-                <!-- Name input -->
-                <div class="form-outline mb-4">
-                  <input
-                    type="text"
-                    id="form5Example1"
-                    class="form-control"
-                    autocomplete="off"
-                    style="
-                      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAUBJREFUOBGVVE2ORUAQLvIS4gwzEysHkHgnkMiEc4zEJXCMNwtWTmDh3UGcYoaFhZUFCzFVnu4wIaiE+vvq6+6qTgthGH6O4/jA7x1OiCAIPwj7CoLgSXDxSjEVzAt9k01CBKdWfsFf/2WNuEwc2YqigKZpK9glAlVVwTTNbQJZlnlCkiTAZnF/mePB2biRdhwHdF2HJEmgaRrwPA+qqoI4jle5/8XkXzrCFoHg+/5ICdpm13UTho7Q9/0WnsfwiL/ouHwHrJgQR8WEwVG+oXpMPaDAkdzvd7AsC8qyhCiKJjiRnCKwbRsMw9hcQ5zv9maSBeu6hjRNYRgGFuKaCNwjkjzPoSiK1d1gDDecQobOBwswzabD/D3Np7AHOIrvNpHmPI+Kc2RZBm3bcp8wuwSIot7QQ0PznoR6wYSK0Xb/AGVLcWwc7Ng3AAAAAElFTkSuQmCC');
-                      background-repeat: no-repeat;
-                      background-attachment: scroll;
-                      background-size: 16px 18px;
-                      background-position: 98% 50%;
-                    "
-                  />
-                  <label
-                    class="form-label"
-                    for="form5Example1"
-                    style="margin-left: 0px"
-                    >Name</label
-                  >
-                  <div class="form-notch">
-                    <div class="form-notch-leading" style="width: 9px"></div>
-                    <div
-                      class="form-notch-middle"
-                      style="width: 42.4px"
-                    ></div>
-                    <div class="form-notch-trailing"></div>
-                  </div>
-                </div>
-
-                <!-- Email input -->
-                <div class="form-outline mb-4">
-                  <input
-                    type="email"
-                    id="form5Example2"
-                    class="form-control"
-                    autocomplete="off"
-                    style="
-                      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAUBJREFUOBGVVE2ORUAQLvIS4gwzEysHkHgnkMiEc4zEJXCMNwtWTmDh3UGcYoaFhZUFCzFVnu4wIaiE+vvq6+6qTgthGH6O4/jA7x1OiCAIPwj7CoLgSXDxSjEVzAt9k01CBKdWfsFf/2WNuEwc2YqigKZpK9glAlVVwTTNbQJZlnlCkiTAZnF/mePB2biRdhwHdF2HJEmgaRrwPA+qqoI4jle5/8XkXzrCFoHg+/5ICdpm13UTho7Q9/0WnsfwiL/ouHwHrJgQR8WEwVG+oXpMPaDAkdzvd7AsC8qyhCiKJjiRnCKwbRsMw9hcQ5zv9maSBeu6hjRNYRgGFuKaCNwjkjzPoSiK1d1gDDecQobOBwswzabD/D3Np7AHOIrvNpHmPI+Kc2RZBm3bcp8wuwSIot7QQ0PznoR6wYSK0Xb/AGVLcWwc7Ng3AAAAAElFTkSuQmCC');
-                      background-repeat: no-repeat;
-                      background-attachment: scroll;
-                      background-size: 16px 18px;
-                      background-position: 98% 50%;
-                    "
-                  />
-                  <label
-                    class="form-label"
-                    for="form5Example2"
-                    style="margin-left: 0px"
-                    >Email address</label
-                  >
-                  <div class="form-notch">
-                    <div class="form-notch-leading" style="width: 9px"></div>
-                    <div
-                      class="form-notch-middle"
-                      style="width: 88.8px"
-                    ></div>
-                    <div class="form-notch-trailing"></div>
-                  </div>
-                </div>
-
-                <!-- Checkbox -->
-                <div class="form-check d-flex justify-content-center mb-4">
-                  <input
-                    class="form-check-input me-2"
-                    type="checkbox"
-                    value=""
-                    id="form5Example3"
-                    checked=""
-                  />
-                  <label class="form-check-label" for="form5Example3">
-                    I have read and agree to the <a href="#">terms</a>
-                  </label>
-                </div>
-
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4">
-                  Subscribe
-                </button>
-              </form>
-            </div>
-
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-6">
-            <p class="col-md-12">
-            By Subscribing, you'll be able to get early access to my products
-            and services. 
-            Also you will be notified of discounts on products
-            and services.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-6">
-        </div>
       </div>
       </section>
-      <!--Section: Content-->
-    </div>
-  </main>
-  <!--Main layout-->
-<br>
-  <!--Footer-->
-  <footer class="bg-dark text-lg-start text-light">
-    <hr class="m-0" />
-    <!--footer class="bg-primary text-white"-->
-      <!-- Grid container -->
-      <div class="container p-4">
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h1 class="text-uppercase small">Offers | services</h1>
-            <div id="more"></div>
-            <p>
-              Offering 15% discount on all services.
-              Including :
-            </p>
-            <ul class="list-styled">
-              <li>
-                <a href="#!">Website design and development</a>
-              </li>
-              <li>
-                <a href="#!">Mobile and Desktop applications</a>
-              </li>
-              <li>
-                <a href="#!">SEO, Email and Social media marketing</a>
-              </li>
-              <li>
-                <a href="#!">Computer programming and software development private classes (In-person and online)</a>
-              </li>
-            </ul>            
+
+      <!-- Skills Section -->
+      <section class="section">
+        <h2 class="heading">Skills 🛠</h2>
+        <div class="section-content">
+          <div class="section-intro">
+            <p>I have honed a variety of skills over the years. Here's a quick look at some of my most notable skills:</p>
           </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h1 class="text-uppercase small">Quick Links</h1>
-
-            <ul class="list-unstyled text-light">
-              <li>
-                <a href="#!">About Mgregchi</a>
-              </li>
-              <li>
-                <a href="#!">Softwares</a>
-              </li>
-              <li>
-                <a href="#!">Contact me</a>
-              </li>
-              <li>
-                <a href="#!">Live test</a>
-              </li>
-            </ul>
+          
+          <div class="skill">
+            <h3><a href="https://www.google.com/?q=Web+development">Web development</a></h3>
           </div>
-          <!--Grid column-->
 
-          <!--Grid column-->
-          <!--div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">External Links</h5>
+          <div class="skill">
+            <h3><a href="https://www.google.com/?q=cross+platform+app+development">Cross-platform app development</a></h3>
+          </div>
+        
+          <div class="skill">
+            <h3><a href="https://www.google.com/?q=Back-end+development">Back-end/Server development</a></h3>
+          </div>
+        
+          <div class="skill">
+            <h3><a href="https://www.google.com/?q=Databases">Databases</a></h3>
+            </div>
+          </div>
+      </section>
 
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div-->
-          <!--Grid column-->
+      <!-- Languages Section -->
+      <section class="section">
+        <h2 class="heading">Languages, Tools & Technologies 🛠</h2>
+        <div class="section-content">
+          <div class="section-intro">
+            <p>I have learned and worked with notable programming languages, tools and technologies. Some of are :</p>
+          </div>
+          
+          <div class="skill">
+            <h3><a href="https://www.google.com/?q=python+programing+language">Python</a></h3>
+            <div class="progress">
+              <div class="progress-bar bg-light" style="width: 95%;"></div>
+            </div>
+            <p>Experienced in building web applications, automation scripts, and server-side solutions with Django and Flask.</p>
+          </div>
+        
+          <div class="skill">
+            <h3><a href="https://www.google.com/?q=JavaScript+programing+language">JavaScript/TypeScript (React/React Native/Node.js)</a></h3>
+            <div class="progress">
+              <div class="progress-bar bg-primary" style="width: 90%;"></div>
+            </div>
+            <p>Skilled in developing responsive front-end applications using React, cross platform applications using React Native and server-side apps with Node.js.</p>
+          </div>
+        
+          <div class="skill">
+            <h3><a href="https://www.google.com/?q=Databases">Databases (SQL, NOSQL, )</a></h3>
+            <div class="progress">
+              <div class="progress-bar bg-primary" style="width: 85%;"></div>
+            </div>
+            <p>Skilled in developing schemas and database optimization using MySQL, PostgresSQL and MongoDB.</p>
+          </div>
+        
+          <div class="skill">
+            <h3><a href="https://www.google.com/?q=software+version+control+System">Software Version Control System</a></h3>
+            <div class="progress">
+              <div class="progress-bar bg-secondary" style="width: 85%;"></div>
+            </div>
+            <p>Software development wouldn't be complete without SVCS. I have gained knowledge and experience using Git, Microsoft Azure DevOps and AWS CodeCommit especially.</p>
+          </div>
         </div>
-        <!--Grid row-->
+        <!-- Add more skills similarly -->
+      </section>
+    </div>       
+    </div> 
+</div>
+              <div class="js-project-module project-module module social_icons project-module-social_icons align-" data-id="m64076776d5d21b0033110a0105bb26cc28a95d7ea98b81eca2864">
+                <div class="module-content module-content-social_icons js-module-content">
+      <div class="social">
+        <ul>
+              <li>
+                <a href="https://twitter.com/mgregchi" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 30 24" xml:space="preserve" class="icon"><path d="M24.71 5.89C24 6.2 23.2 6.4 22.4 6.53c0.82-0.5 1.45-1.29 1.75-2.23c-0.77 0.46-1.62 0.8-2.53 1 C20.92 4.5 19.9 4 18.7 4c-2.2 0-3.99 1.81-3.99 4.04c0 0.3 0 0.6 0.1 0.92C11.54 8.8 8.6 7.2 6.6 4.7 C6.3 5.3 6.1 6 6.1 6.77c0 1.4 0.7 2.6 1.8 3.36c-0.65-0.02-1.27-0.2-1.81-0.51c0 0 0 0 0 0.1 c0 2 1.4 3.6 3.2 3.96c-0.34 0.09-0.69 0.14-1.05 0.14c-0.26 0-0.51-0.03-0.75-0.07c0.51 1.6 2 2.8 3.7 2.8 c-1.36 1.08-3.08 1.73-4.95 1.73c-0.32 0-0.64-0.02-0.95-0.06C7.05 19.3 9.1 20 11.4 20c7.33 0 11.34-6.15 11.34-11.49 c0-0.18 0-0.35-0.01-0.52C23.5 7.4 24.2 6.7 24.7 5.89z"/></svg>
+                </a>
+              </li>
+              <!-- <li>
+                <a href="https://www.behance.net/mgregchi" target="_blank">
+                  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" class="icon"><path id="path-1" d="M18.83,14.38a2.78,2.78,0,0,0,.65,1.9,2.31,2.31,0,0,0,1.7.59,2.31,2.31,0,0,0,1.38-.41,1.79,1.79,0,0,0,.71-0.87h2.31a4.48,4.48,0,0,1-1.71,2.53,5,5,0,0,1-2.78.76,5.53,5.53,0,0,1-2-.37,4.34,4.34,0,0,1-1.55-1,4.77,4.77,0,0,1-1-1.63,6.29,6.29,0,0,1,0-4.13,4.83,4.83,0,0,1,1-1.64A4.64,4.64,0,0,1,19.09,9a4.86,4.86,0,0,1,2-.4A4.5,4.5,0,0,1,23.21,9a4.36,4.36,0,0,1,1.5,1.3,5.39,5.39,0,0,1,.84,1.86,7,7,0,0,1,.18,2.18h-6.9Zm3.67-3.24A1.94,1.94,0,0,0,21,10.6a2.26,2.26,0,0,0-1,.22,2,2,0,0,0-.66.54,1.94,1.94,0,0,0-.35.69,3.47,3.47,0,0,0-.12.65h4.29A2.75,2.75,0,0,0,22.5,11.14ZM18.29,6h5.36V7.35H18.29V6ZM13.89,17.7a4.4,4.4,0,0,1-1.51.7,6.44,6.44,0,0,1-1.73.22H4.24V5.12h6.24a7.7,7.7,0,0,1,1.73.17,3.67,3.67,0,0,1,1.33.56,2.6,2.6,0,0,1,.86,1,3.74,3.74,0,0,1,.3,1.58,3,3,0,0,1-.46,1.7,3.33,3.33,0,0,1-1.35,1.12,3.19,3.19,0,0,1,1.82,1.26,3.79,3.79,0,0,1,.59,2.17,3.79,3.79,0,0,1-.39,1.77A3.24,3.24,0,0,1,13.89,17.7ZM11.72,8.19a1.25,1.25,0,0,0-.45-0.47,1.88,1.88,0,0,0-.64-0.24,5.5,5.5,0,0,0-.76-0.05H7.16v3.16h3a2,2,0,0,0,1.28-.38A1.43,1.43,0,0,0,11.89,9,1.73,1.73,0,0,0,11.72,8.19ZM11.84,13a2.39,2.39,0,0,0-1.52-.45H7.16v3.73h3.11a3.61,3.61,0,0,0,.82-0.09A2,2,0,0,0,11.77,16a1.39,1.39,0,0,0,.47-0.54,1.85,1.85,0,0,0,.17-0.88A1.77,1.77,0,0,0,11.84,13Z"/></svg>
+                </a>
+              </li> -->
+              <li>
+                <a href="https://www.linkedin.com/in/mgregchi/" target="_blank">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+                  <path id="path-1_24_" d="M19.6,19v-5.8c0-1.4-0.5-2.4-1.7-2.4c-1,0-1.5,0.7-1.8,1.3C16,12.3,16,12.6,16,13v6h-3.4
+                    c0,0,0.1-9.8,0-10.8H16v1.5c0,0,0,0,0,0h0v0C16.4,9,17.2,7.9,19,7.9c2.3,0,4,1.5,4,4.9V19H19.6z M8.9,6.7L8.9,6.7
+                    C7.7,6.7,7,5.9,7,4.9C7,3.8,7.8,3,8.9,3s1.9,0.8,1.9,1.9C10.9,5.9,10.1,6.7,8.9,6.7z M10.6,19H7.2V8.2h3.4V19z"/>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.github.com/in/mgregchi/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" version="1.1" viewBox="0 0 16 16" class="icon" width="30" height="30" fill="currentColor">
+                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.58.82-2.14-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.14 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+                  
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/mgregchi/" target="_blank">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+                  <g>
+                    <path d="M15,5.4c2.1,0,2.4,0,3.2,0c0.8,0,1.2,0.2,1.5,0.3c0.4,0.1,0.6,0.3,0.9,0.6c0.3,0.3,0.5,0.5,0.6,0.9
+                      c0.1,0.3,0.2,0.7,0.3,1.5c0,0.8,0,1.1,0,3.2s0,2.4,0,3.2c0,0.8-0.2,1.2-0.3,1.5c-0.1,0.4-0.3,0.6-0.6,0.9c-0.3,0.3-0.5,0.5-0.9,0.6
+                      c-0.3,0.1-0.7,0.2-1.5,0.3c-0.8,0-1.1,0-3.2,0s-2.4,0-3.2,0c-0.8,0-1.2-0.2-1.5-0.3c-0.4-0.1-0.6-0.3-0.9-0.6
+                      c-0.3-0.3-0.5-0.5-0.6-0.9c-0.1-0.3-0.2-0.7-0.3-1.5c0-0.8,0-1.1,0-3.2s0-2.4,0-3.2c0-0.8,0.2-1.2,0.3-1.5c0.1-0.4,0.3-0.6,0.6-0.9
+                      c0.3-0.3,0.5-0.5,0.9-0.6c0.3-0.1,0.7-0.2,1.5-0.3C12.6,5.4,12.9,5.4,15,5.4 M15,4c-2.2,0-2.4,0-3.3,0c-0.9,0-1.4,0.2-1.9,0.4
+                      c-0.5,0.2-1,0.5-1.4,0.9C7.9,5.8,7.6,6.2,7.4,6.8C7.2,7.3,7.1,7.9,7,8.7C7,9.6,7,9.8,7,12s0,2.4,0,3.3c0,0.9,0.2,1.4,0.4,1.9
+                      c0.2,0.5,0.5,1,0.9,1.4c0.4,0.4,0.9,0.7,1.4,0.9c0.5,0.2,1.1,0.3,1.9,0.4c0.9,0,1.1,0,3.3,0s2.4,0,3.3,0c0.9,0,1.4-0.2,1.9-0.4
+                      c0.5-0.2,1-0.5,1.4-0.9c0.4-0.4,0.7-0.9,0.9-1.4c0.2-0.5,0.3-1.1,0.4-1.9c0-0.9,0-1.1,0-3.3s0-2.4,0-3.3c0-0.9-0.2-1.4-0.4-1.9
+                      c-0.2-0.5-0.5-1-0.9-1.4c-0.4-0.4-0.9-0.7-1.4-0.9c-0.5-0.2-1.1-0.3-1.9-0.4C17.4,4,17.2,4,15,4L15,4L15,4z"/>
+                    <path d="M15,7.9c-2.3,0-4.1,1.8-4.1,4.1s1.8,4.1,4.1,4.1s4.1-1.8,4.1-4.1S17.3,7.9,15,7.9L15,7.9z M15,14.7c-1.5,0-2.7-1.2-2.7-2.7
+                      c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7C17.7,13.5,16.5,14.7,15,14.7L15,14.7z"/>
+                    <path d="M20.2,7.7c0,0.5-0.4,1-1,1s-1-0.4-1-1s0.4-1,1-1S20.2,7.2,20.2,7.7L20.2,7.7z"/>
+                  </g>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:mg@gmail.com">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+                    <g>
+                      <path d="M15,13L7.1,7.1c0-0.5,0.4-1,1-1h13.8c0.5,0,1,0.4,1,1L15,13z M15,14.8l7.9-5.9v8.1c0,0.5-0.4,1-1,1H8.1c-0.5,0-1-0.4-1-1 V8.8L15,14.8z"/>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+        </ul>
       </div>
-      <!-- Button trigger modal -->
-      <button
-        type="button"
-        class="btn btn-primary"
-        id="cookie-btn"
-        hidden
-      >
-        Toast
-      </button>
-            <!-- Modal -->
-            <!--div
-              class="modal fade"
-              id="exampleModal"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
-                      Modal title
-                    </h5-->
+  </div>
+</div>
 
-      <!--MODAL ALERT
-        NOW OFFERING PRIVATE SOFTWARE, COMPUTER PROGRAMMING LESSONS FOR TEENS AND ADULTS
-      -->
-
-    <div class="text-center p-2 align-items-center">
-
-                  <!--Section: Social-->
-                  <section class="mb-4" hidden>
-                    <!-- Facebook -->
-                    <a
-                      class="btn btn-primary"
-                      style="background-color: #3b5998"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-      
-                    <!-- Twitter -->
-                    <a
-                      class="btn btn-primary"
-                      style="background-color: #55acee"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-      
-                    <!-- Google -->
-                    <a
-                      class="btn btn-primary"
-                      style="background-color: #dd4b39"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-google"></i
-                    ></a>
-      
-                    <!-- Instagram -->
-                    <a
-                      class="btn btn-primary"
-                      style="background-color: #ac2bac"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-      
-                    <!-- Linkedin -->
-                    <a
-                      class="btn btn-primary"
-                      style="background-color: #0082ca"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-linkedin-in"></i
-                    ></a>
-      
-                    <!-- Pinterest -->
-                    <a
-                      class="btn btn-primary"
-                      style="background-color: #c61118"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-pinterest"></i
-                    ></a>
-      
-     
-                    <!-- Stack overflow -->
-                    <a
-                      class="btn btn-primary"
-                      style="background-color: #ffac44"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-stack-overflow"></i
-                    ></a>
-      
-                    <!-- Youtube -->
-                    <a
-                      class="btn btn-primary"
-                      style="background-color: #ed302f"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-youtube"></i
-                    ></a>
-      
-                    
-                    <!-- Github -->
-                    <a
-                      class="btn btn-primary"
-                      style="background-color: #333333"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-github"></i
-                    ></a>
-      
-  
-                    <!-- Reddit -->
-                    <a
-                      class="btn btn-primary"
-                      style="background-color: #ff4500"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-reddit-alien"></i
-                    ></a>
-      
-                    <!-- Whatsapp -->
-                    <a
-                      class="btn btn-primary"
-                      style="background-color: #25d366"
-                      href="#!"
-                      role="button"
-                      ><i class="fab fa-whatsapp"></i
-                    ></a>
-                  </section>
-                  <!--Section: Social-->
-      <p>Find me on social media</p>
-      <a href="#" class="m-1" role="button" 
-        target="_blank" name="mgregchi-youtube-channel" rel="noopener"><span class="badge ms-2" style="background-color: #ed302f"> Youtube channel
-        <i class="fab fa-youtube"></i></span>
-      </a>
-      <!--ADD A MODAL ONLCIK STATING THAT I DON"T USE FACEBOOK TILL FURTHER NOTICE-->
-      <a class=" m-1" role="button"
-        data-mdb-container="body"
-        data-mdb-toggle="popover"
-        data-mdb-placement="top"
-        data-mdb-content="Sorry, I'm not currently using that!"
-        data-mdb-original-title=""
-        title=""   name="mgregchi-facebook-page"  rel="noopener"   
-        ><span class="badge bg-primary ms-2">Facebook page
-        <i class="fab fa-facebook-f"></i></span>
-      </a>
-      <!--Can be used for -->
-      <!--button
-        type="button"
-        class="btn btn-success m-1"
-        data-mdb-container="body"
-        data-mdb-toggle="popover"
-        data-mdb-placement="top"
-        data-mdb-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
-        data-mdb-original-title=""
-        title=""
-      >
-        Popover 
-      </button-->
-      <a href="https://twitter.com/mgregchi02" class="m-1" role="button" rel="noopener"
-        target="_blank"><span class="badge-pill badge ms-2" style="background-color: #55acee">Twitter page
-        <i class="fab fa-twitter " ></i></span>
-      </a>
-      <!--class="btn"-->
-      <a href="https://github.com/mgregchi/" class="m-1" role="button" rel="noopener"
-        target="_blank"><span class="badge ms-2 style="background-color: #333333">Github page
-        <i class="fab fa-github"></i></span>
-      </a>
-      <a href="https://wa.me/" class="m-1 hover-shadow" role="button" rel="noopener"
-        target="_blank" 
-        ><span class="ms-2 badge" style="background-color: #25d366">Whatsapp
-        <i class="fab fa-whatsapp" ></i></span>
-      </a>   
-      <a href="mailto:info@mgregchi.tk" id="email" class="m-1 hover-shadow"><span class="ms-2 badge"> <i class="fas fa-envelope fa-lg"></i></a></span>
-
-    </div>
-    <!-- Copyright -->
-    <div class="text-center p-4" >
-      <!--email address encoder-->
-      © 2019 — <span id="year"></span> Copyright:
-      <a class="text-light" href="https://mgregchi.tk/">Mgregchi</a>
-    </div>
-    <span class="p-2"></span>
-    <!-- Copyright -->
-  </footer>
-  <!--Footer-->
-    <!-- MDB -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Custom scripts -->
-    <script type="text/javascript" src="js/processor.js"></script>
-    <!--script src="js/jquery.min.js"></script-->
+              
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </section>
     <script>
-     const d = new Date();
-     
-     document.getElementById("year").innerHTML = d.getFullYear();
-      // DATA FROM JSON
-      //$.getJSON("storage/tags.json")
-      /*
-      $.getJSON("storage/tags.json", function( data ) {
-        console.log(data)
+// function openSlideModal() {
+//   document.getElementById('slideModal').style.display = 'block';
+// }
 
-        object = JSON.parse(data);
-        var items = [];
-        alert(object.navLinks);
-        $.each( data, function( key, val ) {
-          items.push( "<li id='" + key + "'>" + val + "</li>" );
-        });
+// function closeSlideModal() {
+//   document.getElementById('slideModal').style.display = 'none';
+// }
 
-        $( "<ul/>", {
-          "class": "my-new-list text-white",
-          html: items.join( "" )
-        }).appendTo($('#more'));
-      });  */
 
-      // fa-moon fa-sun text-dark text-light
-      let adjust = document.getElementById("adjust");
-      let nav = document.getElementById("nav");
+const modal = document.getElementById('modal');
+    const enterButton = document.querySelector('.enter-button');
+    // const expandButtons = document.querySelectorAll('.project-expand');
 
-      let link = document.all.style
-      var menu = document.getElementById("menu");
-      //adjust.onclick = mode.replace("href", "href='css/mdb.dark.min.css'")
-      //adjust.onclick = console.log("CLICKED");//link.href = "css/mdb.dark.min.css"
-      
-      adjust.onclick = function() {
-        classToggle()
+    enterButton.addEventListener('click', () => {
+      modal.style.display = 'block';
+    });
+
+    function closeModal() {
+      modal.style.display = 'none';
+    }
+
+    // function toggleProjectContent(projectId) {
+    //   const fullContent = document.getElementById(`project-content-${projectId}`);
+    //   const isVisible = fullContent.style.display === "block";
+    //   fullContent.style.display = isVisible ? "none" : "block";
+    // }
+
+    function toggleProjectContent(element) {
+  const projectContent = element.parentElement.querySelector('.project-full-content');
+  // const projectTeaser = element.parentElement.querySelector('.project-teaser p');
+  if (projectContent.style.display === "block") {
+    projectContent.style.display = "none";
+    element.querySelector('span').innerText = "Read more";
+  } else {
+    projectContent.style.display = "block";
+    element.querySelector('span').innerText = "Read less";
+    // projectTeaser.innerText = projectTeaser.innerText.replace('...', ` ${projectContent.innerText}`);
+  }
+}
+
+
+    window.onclick = function(event) {
+      if (event.target === modal) {
+        // modal.style.display = 'none';
+        closeModal();
       }
+    }
 
-      function classToggle() {
-        if (adjust.classList.contains("fa-moon")) {
-            link.href = "css/mdb.dark.min.css"
-            adjust.classList.replace("fa-moon", "fa-sun")
-            adjust.classList.replace("text-dark", "text-light");
-            nav.classList.replace("bg-light", "bg-dark");
-            menu.classList.add("text-light")
-        } else if(adjust.classList.contains("fa-sun")) {
-            //link.href = ""
-            adjust.classList.replace("fa-sun", "fa-moon")
-            adjust.classList.replace("text-light", "text-dark")
-            link.href = "css/mdb.min.css"
-            menu.classList.remove("text-light")
-            nav.classList.replace("bg-dark", "bg-light");
+    // expandButtons.forEach((button) => {
+    //     button.addEventListener('click', (e) => {
+    //         console.log("This ", e.currentTarget, " clicked");
+    //     })
+    // })
 
-
-        } else {
-          link.href =""
-        }
-        /*
-        switch (adjust.classList.contains) {
-          case "loading":
-            // The document is still loading.
-            break;
-          case "interactive":
-            // The document has finished loading. We can now access the DOM elements.
-            // But sub-resources such as scripts, images, stylesheets and frames are still loading.
-            const span = document.createElement("span");
-            span.textContent = "A <span> element.";
-            document.body.appendChild(span);
-            break;
-          case "complete":
-            // The page is fully loaded.
-            console.log("The first CSS rule is: " + document.styleSheets[0].cssRules[0].cssText);
-            break;
-        }        */
-        //alert(elem.classList);
-
-        //elem.classList.remove();
-        //elem.classList.replace("old","show");
-    }      
     </script>
-  </body>
 </html>
